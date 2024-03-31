@@ -14,11 +14,11 @@
         "typescript": "^5.4.3"
     },
     "scripts": {
-        "test": "jest InsertionSort MergeSort Queue Stack QuickSort DijkstraList PrimsList",
+        "test": "jest DFSOnBST LRU LinearSearchList BinarySearchList TwoCrystalBalls BubbleSort SinglyLinkedList DoublyLinkedList Queue Stack ArrayList MazeSolver QuickSort BTPreOrder BTInOrder BTPostOrder BTBFS CompareBinaryTrees DFSOnBST DFSGraphList Trie BFSGraphMatrix Map MinHeap",
         "clear": "node ./scripts/clear.js",
         "prettier": "prettier --write ./src",
         "generate": "node ./scripts/generate.js",
-        "day": "echo src/day2"
+        "day": "echo src/day1"
     },
     "devDependencies": {
         "@swc-node/register": "^1.9.0"
